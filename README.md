@@ -1,5 +1,5 @@
 # StatTests
-Some simulations for diffrent ways of trhowing dice around.
+Some simulations for diffrent ways of throwing dice around.
 ## My result at 5000 cases:
 || -4 | -3 | -2 | -1 | 0 | 1 | 2 | 3 | 4 |
 |--|--|--|--|--|--|--|--|--|--|
