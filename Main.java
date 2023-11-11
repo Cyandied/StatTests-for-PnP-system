@@ -2,6 +2,7 @@ import java.util.Random;
 
 class Main {
 
+    //Methods to "roll" a d9
     public static int d_9(Random r){
         int roll = r.nextInt(1,10);
         if(roll == 1){
@@ -31,6 +32,7 @@ class Main {
         return 4;
     }
 
+    //Method to roll 4 fudge dice
     public static int FUDGE_dice(Random r){
         int total = 0;
         for(int i = 0; i < 4; i++){
@@ -45,12 +47,14 @@ class Main {
         return total;
     }
 
+    //Method to "roll" 2d20 and interpret results
     public static int two_d_20(Random r){
         int roll_m = r.nextInt(1,21)/5;
         int roll_p = r.nextInt(1,21)/5;
         return roll_p - roll_m;
     }
 
+    //Method to "roll" 4d6 and interpret results
     public static int four_d_6(Random r){
         int min_m = 900;
         int min_p = 900;
@@ -79,6 +83,7 @@ class Main {
         return +4;
     }
 
+    //Method to display distribution of results, from results of -4 to +4
     public static String distribution(int[] list){
         int[] counts = new int[9];
         String result = "";
@@ -125,6 +130,10 @@ class Main {
         return result;
     }
 
+    //Method to roll reach method some amount of time, determined by how mnay cases you want
+    //I reccomend over 1000 cases so it "evens out" properly
+    //Is this the binomial distribution? It probably should be '\_(* - *)_/'
+    //Could we calculate all this using math and probablility? Yes, but that sounds hard, so I simulate things instead : )
     public static int[][] roll_many(int cases){
         int[][] result = new int[4][cases];
         Random r = new Random();
@@ -150,6 +159,7 @@ class Main {
         return result;
     }
 
+    //Shows results
     public static void show(int cases){
         int[][] data = roll_many(cases);
         String[] labels = {"4dF","2d20","4d6","1d9"};
