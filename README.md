@@ -17,10 +17,9 @@ Some simulations for diffrent ways of throwing dice around.
 |W3 H0:|0.0%|3.0%|24.0%|
 |W3 H1:|0.0%|2.0%|13.0%|
 ### Checking consistancy of dice rolls on small sample sizes
-The d20 was more consistant 2224.0 out of 5000 times of 20 rolls.
-The d20 was more consistant 44% if the time.
-The d20's average consistancy: 75%, the 3d6: 74%
-
-The d20 was more consistant 3149.0 out of 5000 times of 2000 rolls.
-The d20 was more consistant 63% if the time.
-The d20's average consistancy: 75%, the 3d6: 74%
+The d20 was more consistant 2224.0 out of 5000 times of 20 rolls.<br>
+The d20 was more consistant 44% if the time.<br>
+The d20's average consistancy: 75%, the 3d6: 74%<br><br>
+The d20 was more consistant 3149.0 out of 5000 times of 2000 rolls.<br>
+The d20 was more consistant 63% if the time.<br>
+The d20's average consistancy: 75%, the 3d6: 74%<br>
